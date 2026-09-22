@@ -766,7 +766,7 @@
           <div class="pdf-box">
             <iframe
               title="Plan de Evacuación"
-              data-pdf="plan_evacuacion.pdf"
+              data-pdf="planemergencia.pdf"
             ></iframe>
           </div>
           <div class="pdf-note">
