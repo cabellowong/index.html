@@ -305,7 +305,7 @@ button{cursor:pointer}
 /* TARJETAS DE DOCUMENTOS */
 .cards{
   display:grid;
-  grid-template-columns:repeat(4,1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:16px;
 }
 
@@ -821,18 +821,6 @@ button{cursor:pointer}
         ⚠ IPERC
       </button>
 
-      <button data-target="evacuacion">
-        ⌖ Evacuación
-      </button>
-
-      <button data-target="editar1">
-        📄 edit1
-      </button>
-
-      <button data-target="editar2">
-        📄 edit2
-      </button>
-
     </nav>
   </div>
 </header>
@@ -887,7 +875,7 @@ button{cursor:pointer}
         </div>
 
         <h3>
-          Un sistema, seis documentos clave
+          Un sistema, tres documentos clave
         </h3>
 
         <div class="hero-stat">
@@ -903,21 +891,6 @@ button{cursor:pointer}
         <div class="hero-stat">
           <b>03</b>
           <span>Matriz IPERC</span>
-        </div>
-
-        <div class="hero-stat">
-          <b>04</b>
-          <span>Plano / Plan de Evacuación</span>
-        </div>
-
-        <div class="hero-stat">
-          <b>05</b>
-          <span>edit1</span>
-        </div>
-
-        <div class="hero-stat">
-          <b>06</b>
-          <span>edit2</span>
         </div>
 
       </aside>
@@ -1006,60 +979,6 @@ button{cursor:pointer}
           </p>
 
           <button class="doc-link" data-target="iperc">
-            Revisar documento →
-          </button>
-
-        </article>
-
-
-        <article class="doc-card">
-
-          <div class="doc-icon">⌖</div>
-
-          <h3>
-            Plan de Evacuación
-          </h3>
-
-          <p>
-            Plano/documentación relacionada con rutas, condiciones
-            y organización para la evacuación.
-          </p>
-
-          <button class="doc-link" data-target="evacuacion">
-            Revisar documento →
-          </button>
-
-        </article>
-
-
-        <article class="doc-card">
-
-          <div class="doc-icon">📄</div>
-
-          <h3>editar1</h3>
-
-          <p>
-            Documento complementario y de gestión para editar1.
-          </p>
-
-          <button class="doc-link" data-target="editar1">
-            Revisar documento →
-          </button>
-
-        </article>
-
-
-        <article class="doc-card">
-
-          <div class="doc-icon">📄</div>
-
-          <h3>editar2</h3>
-
-          <p>
-            Documento complementario y de gestión para editar2.
-          </p>
-
-          <button class="doc-link" data-target="editar2">
             Revisar documento →
           </button>
 
@@ -1563,216 +1482,6 @@ button{cursor:pointer}
 
 </section>
 
-
-<!-- DOCUMENTO 04 -->
-<section id="evacuacion" class="page document-view section">
-
-  <div class="container">
-
-    <div class="viewer-head">
-
-      <div>
-
-        <div class="kicker">
-          Documento 04
-        </div>
-
-        <h2>
-          Plan de Evacuación
-        </h2>
-
-      </div>
-
-      <div class="viewer-actions">
-
-        <button class="small-btn back-btn">
-          ← Volver al inicio
-        </button>
-
-        <a
-          class="small-btn"
-          href="plan_evacuacion.pdf"
-          target="_blank"
-          rel="noopener"
-        >
-          ↗ Abrir
-        </a>
-
-        <a
-          class="small-btn"
-          href="plan_evacuacion.pdf"
-          download
-        >
-          ↓ Descargar
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="pdf-box">
-
-      <iframe
-        title="Plan de Evacuación"
-        data-pdf="planemergencia.pdf"
-      ></iframe>
-
-    </div>
-
-
-    <div class="pdf-note">
-
-      Si el visor no muestra el documento, utiliza
-      <b>Abrir</b> para visualizar el PDF directamente
-      en tu navegador.
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- DOCUMENTO 05 -->
-<section id="editar1" class="page document-view section">
-
-  <div class="container">
-
-    <div class="viewer-head">
-
-      <div>
-
-        <div class="kicker">
-          Documento 05
-        </div>
-
-        <h2>
-          editar1
-        </h2>
-
-      </div>
-
-      <div class="viewer-actions">
-
-        <button class="small-btn back-btn">
-          ← Volver al inicio
-        </button>
-
-        <a
-          class="small-btn"
-          href="editar1.pdf"
-          target="_blank"
-          rel="noopener"
-        >
-          ↗ Abrir
-        </a>
-
-        <a
-          class="small-btn"
-          href="editar1.pdf"
-          download
-        >
-          ↓ Descargar
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="pdf-box">
-
-      <iframe
-        title="editar1"
-        data-pdf="editar1.pdf"
-      ></iframe>
-
-    </div>
-
-
-    <div class="pdf-note">
-
-      Si el visor no muestra el documento, utiliza
-      <b>Abrir</b> para visualizar el PDF directamente
-      en tu navegador.
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- DOCUMENTO 06 -->
-<section id="editar2" class="page document-view section">
-
-  <div class="container">
-
-    <div class="viewer-head">
-
-      <div>
-
-        <div class="kicker">
-          Documento 06
-        </div>
-
-        <h2>
-          editar2
-        </h2>
-
-      </div>
-
-      <div class="viewer-actions">
-
-        <button class="small-btn back-btn">
-          ← Volver al inicio
-        </button>
-
-        <a
-          class="small-btn"
-          href="editar2.pdf"
-          target="_blank"
-          rel="noopener"
-        >
-          ↗ Abrir
-        </a>
-
-        <a
-          class="small-btn"
-          href="editar2.pdf"
-          download
-        >
-          ↓ Descargar
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="pdf-box">
-
-      <iframe
-        title="editar2"
-        data-pdf="editar2.pdf"
-      ></iframe>
-
-    </div>
-
-
-    <div class="pdf-note">
-
-      Si el visor no muestra el documento, utiliza
-      <b>Abrir</b> para visualizar el PDF directamente
-      en tu navegador.
-
-    </div>
-
-  </div>
-
-</section>
-
 </main>
 
 
@@ -1835,12 +1544,6 @@ button{cursor:pointer}
 
           <li>Matriz IPERC</li>
 
-          <li>Plan de Evacuación</li>
-
-          <li>editar1</li>
-
-          <li>editar2</li>
-
         </ul>
 
       </div>
@@ -1885,10 +1588,7 @@ function activate(target, updateHash = true){
     [
       'plan',
       'ambiental',
-      'iperc',
-      'evacuacion',
-      'editar1',
-      'editar2'
+      'iperc'
     ].includes(target);
 
 
@@ -2062,10 +1762,7 @@ window.addEventListener(
         'inicio',
         'plan',
         'ambiental',
-        'iperc',
-        'evacuacion',
-        'editar1',
-        'editar2'
+        'iperc'
       ].includes(id)
     ){
 
@@ -2090,10 +1787,7 @@ document.addEventListener(
       [
         'plan',
         'ambiental',
-        'iperc',
-        'evacuacion',
-        'editar1',
-        'editar2'
+        'iperc'
       ].includes(id)
     ){
 
